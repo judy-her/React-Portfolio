@@ -1,32 +1,20 @@
-import '../styles/Header.css';
-import Navbar from './Navbar';
+import '../index.css';
 
-const styles = {
-  headerStyle: {
-    background: 'black',
-  },
-  headingStyle: {
-    fontSize: '40px',
-  },
-};
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 function Header() {
   return (
-    <section className="header">
-      <section className="header-top">
+    <section className="container">
+      <section className="header gradient-background">
         <section className="header-top_logo">
-          <a href="/" className="header-logo">
+          <a href="/" className="header-logo text-light">
             LOGO
           </a>
         </section>
-        <section className="header-top_navbar">
+        <section className="header-top_navbar text-light">
           <Navbar />
         </section>
-      </section>
-
-      <section className="header-bottom">
-        <section className="header-bottom_phone">999999999</section>
-        <section className="header-bottom_email">shop.info@gmail.com</section>
       </section>
     </section>
   );
