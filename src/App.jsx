@@ -1,9 +1,10 @@
 // import { useState } from 'react';
 
 // import './App.css';
-import Section from './components/Section';
-import Header from './components/Header';
+
 import Footer from './components/Footer';
+import Header from './components/Header';
+import Section from './components/Section';
 
 function App() {
   return (
@@ -11,7 +12,6 @@ function App() {
       <Header />
       <Section />
       <Footer />
-      {/* <Inputs /> */}
     </div>
   );
 }
