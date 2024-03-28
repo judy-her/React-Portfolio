@@ -23,12 +23,7 @@ body {
   background-color: #ec9a00;
   /* border-bottom: 25px solid #0b0b0b; */
 }
-.header {
-  background-color: #ec9a00;
-  margin: 0;
-  width: 100vw;
-  height: 100px;
-}
+
 .section {
   background-color: #f4b0e8;
   margin: 0;
@@ -48,12 +43,7 @@ body {
 
 /* *************** */
 /* -----colors---------- */
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+.text-gradient {
   background: -webkit-linear-gradient(
     50.1deg,
     rgba(2, 2, 124),
@@ -62,75 +52,4 @@ li {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.gradient-background {
-  background: linear-gradient(
-    45deg,
-    #020782,
-    #4d0278,
-    black,
-    #250482,
-    #4a0970,
-    black,
-    #290b95,
-    hsl(0, 0%, 5%)
-  );
-  background-size: 1200% 1200%;
-  -webkit-animation: AnimationName 18s ease infinite;
-  -moz-animation: AnimationName 18s ease infinite;
-  -o-animation: AnimationName 18s ease infinite;
-  animation: AnimationName 18s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 44%;
-  }
-  50% {
-    background-position: 100% 57%;
-  }
-  100% {
-    background-position: 0% 44%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 44%;
-  }
-  50% {
-    background-position: 100% 57%;
-  }
-  100% {
-    background-position: 0% 44%;
-  }
-}
-/* FOOTER------------------------ */
-/* .footer {
-  background-color: #050505;
-  margin: 0;
-  width: 100vw;
-  color: aliceblue;
-} */
-/* .footer {
-  background-color: black;
-  height: 10vh;
-  width: 100vw;
-  margin: 0;
-  color: white;
-} */
-.footer-box {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0;
-}
-.footer {
-  color: white;
-  margin: auto;
-  text-align: center;
-  width: 100vw;
-  background-color: black;
-  font-family: var(--main-font-family);
-  font-size: 20px;
 }
