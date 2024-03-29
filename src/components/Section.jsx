@@ -2,7 +2,7 @@ import '../index.css';
 
 function Section() {
   return (
-    <section className="section bg-black ">
+    <div className="section bg-black ">
       <h2 className="text-center pt-3 fs-1 text-gradient">
         Lorem Ipsum Dolor Sit Amet
       </h2>
@@ -21,7 +21,7 @@ function Section() {
         quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
         voluptas nulla pariatur?
       </p>
-    </section>
+    </div>
   );
 }
 
