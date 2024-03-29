@@ -6,12 +6,13 @@ import '../src/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
+
 import About from './pages/About';
 import Home from './pages/Home';
-// import './index.css';
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
-// ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 const router = createBrowserRouter([
   {
     path: '/',
@@ -25,14 +26,18 @@ const router = createBrowserRouter([
         path: '/About',
         element: <About />,
       },
-      //   {
-      //     path: '/Blog',
-      //     element: <Blog />,
-      //   },
-      //   {
-      //     path: '/Contact',
-      //     element: <Contact />,
-      //   },
+      {
+        path: '/Portfolio',
+        element: <Portfolio />,
+      },
+      {
+        path: '/Resume',
+        element: <Resume />,
+      },
+      {
+        path: '/Contact',
+        element: <Contact />,
+      },
     ],
   },
 ]);
