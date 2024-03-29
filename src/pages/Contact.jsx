@@ -1,6 +1,6 @@
 import Section from '../components/Section';
 
-function Home() {
+function Contact() {
   return <Section />;
 }
-export default Home;
+export default Contact;

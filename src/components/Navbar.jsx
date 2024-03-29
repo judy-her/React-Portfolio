@@ -17,22 +17,39 @@ function Navbar() {
       <li className="nav-item">
         <Link
           to="/about"
-          className={activePage === '/' ? 'nav-link active' : 'nav-link'}
+          className={activePage === '/about' ? 'nav-link active' : 'nav-link'}
         >
           About Me
         </Link>
       </li>
 
       <li className="nav-item">
-        <Link to="/portfolio">Portfolio</Link>
+        <Link
+          to="/portfolio"
+          className={
+            activePage === '/portfolio' ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Portfolio
+        </Link>
       </li>
 
       <li className="nav-item">
-        <Link to="/contact">Contact</Link>
+        <Link
+          to="/contact"
+          className={activePage === '/contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </Link>
       </li>
 
       <li className="nav-item">
-        <Link to="/resume">Resume</Link>
+        <Link
+          to="/resume"
+          className={activePage === '/resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </Link>
       </li>
     </ul>
   );

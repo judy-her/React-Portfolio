@@ -1,6 +1,6 @@
 import Section from '../components/Section';
 
-function Home() {
+function Portfolio() {
   return <Section />;
 }
-export default Home;
+export default Portfolio;
