@@ -1,14 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+h2,
+p {
+  font-size: 19px;
+}
+.philosopher-regular {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.philosopher-regular-italic {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.philosopher-bold {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.philosopher-bold-italic {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
 .contact-me-container {
   display: flex;
-  height: 100vh;
+  margin: 0;
+  width: 100vw;
+  height: 80vh;
 }
 .contact-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* font-family: var(--main-font-family); */
-  height: 100vh;
+  font-family: var(--main-font-family);
+  /* height: 100vh; */
   width: 925px;
   margin: auto;
 }
@@ -25,15 +69,14 @@ form {
 }
 .get-in-touch-title {
   /* font-size: 70px; */
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .last-msg-box {
-  height: 500px;
-  width: 640px;
+  width: 540px;
 }
 .one-of-my {
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   /* font-size: 30px; */
 }
 .labels {
@@ -53,8 +96,16 @@ form {
   text-align: center;
   font-size: 20px;
   padding: 3px;
-  padding-left: 5px;
-  padding-right: 10px;
+  /* padding-left: 5px; */
+}
+label {
+  padding-right: 5px;
+}
+input {
+  border-width: 2px;
+  border-color: pink;
+  border-radius: 27px;
+  padding-left: 4px;
 }
 
 .button-box {
@@ -68,9 +119,9 @@ form {
 .btn {
   background: var(--linear-gradient);
   font-family: var(--main-font-family);
-  color: black;
+  color: rgb(231, 153, 16);
   font-size: 20px;
-  width: 100px;
-  border-radius: 20px;
-  padding: 10px;
+  width: 12l0px;
+  height: 40px;
+  border-radius: 27px;
 }

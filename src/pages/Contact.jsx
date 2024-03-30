@@ -12,17 +12,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Contact() {
   return (
-    <section id="Contact" className="contact-me-container bg-light">
+    <section className="contact-me-container bg-light ">
       <div className="contact-box">
         <h1 className="get-in-touch-title text-gradient">Get In Touch</h1>
-        <div className="last-msg-box">
-          <p className="one-of-my text-gradient">
+        <div className="last-msg-box ">
+          <p className="one-of-my text-gradient pb-5">
             One of my winding down go to's is watching British crime mysteries.
             Actually, French, Dutch, German, they're all great. If you want to
             talk about criminology or simply want to chat about coding send me a
             message bellow.
           </p>
-          <form>
+          <form className="pt-3">
             <ul className="labels">
               <li>
                 <label className="text-right" for="name">
