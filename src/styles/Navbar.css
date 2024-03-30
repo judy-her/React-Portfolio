@@ -36,6 +36,10 @@
   font-family: var(--main-font-family);
 }
 
+.navbar-toggler {
+  background-color: pink;
+}
+
 .gradient-background {
   background: linear-gradient(
     45deg,
