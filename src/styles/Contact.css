@@ -1,0 +1,76 @@
+.contact-me-container {
+  display: flex;
+  height: 100vh;
+}
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-family: var(--main-font-family); */
+  height: 100vh;
+  width: 925px;
+  margin: auto;
+}
+
+form {
+  width: 370px;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid pink;
+}
+.get-in-touch-title {
+  /* font-size: 70px; */
+  padding-bottom: 20px;
+}
+.last-msg-box {
+  height: 500px;
+  width: 640px;
+}
+.one-of-my {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  /* font-size: 30px; */
+}
+.labels {
+  margin: auto;
+  padding-top: 5px;
+  background: -webkit-linear-gradient(
+    50.1deg,
+    rgba(2, 2, 124),
+    #ae67fa,
+    #f49867
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.labels > li {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.button-box {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-top: 20px;
+  width: 220px;
+  margin: auto;
+}
+.btn {
+  background: var(--linear-gradient);
+  font-family: var(--main-font-family);
+  color: black;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 20px;
+  padding: 10px;
+}
