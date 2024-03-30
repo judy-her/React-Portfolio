@@ -40,7 +40,7 @@ p {
   font-weight: 700;
   font-style: italic;
 }
-.contact-me-container {
+.pages-container {
   display: flex;
   margin: 0;
   width: 100vw;
@@ -67,14 +67,14 @@ form {
   padding-bottom: 10px;
   border: 2px solid pink;
 }
-.get-in-touch-title {
+.title {
   /* font-size: 70px; */
   padding-bottom: 10px;
 }
-.last-msg-box {
+.msg-box {
   width: 540px;
 }
-.one-of-my {
+.body-text {
   padding-top: 20px;
   padding-bottom: 5px;
   /* font-size: 30px; */
