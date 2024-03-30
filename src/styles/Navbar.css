@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --main-font-family: 'Poiret One', sans-serif;
@@ -14,11 +15,24 @@
   height: 100px;
 }
 .logo {
-  font-family: var(--main-font-family);
   color: #f49867;
   font-size: 50px;
-  /* flex-wrap: wrap; */
-  padding-right: 500px;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 70px;
+  text-decoration: none;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(
+    50.1deg,
+    rgba(2, 2, 124),
+    #ae67fa,
+    #f49867
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .navbar {
   display: flex;

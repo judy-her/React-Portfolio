@@ -7,10 +7,10 @@ function Navbar() {
   return (
     <nav className="navbar header gradient-background navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="logo" href="#">
+        <a className="logo text-gradient" href="#">
           Judith
         </a>
-        <button
+        {/* <button
           className="navbar-toggler "
           type="button"
           data-bs-toggle="collapse"
@@ -20,53 +20,54 @@ function Navbar() {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse " id="navbarNav">
-          <ul className="navbar">
-            <li className="nav-item">
-              <Link
-                to="/"
-                className={activePage === '/' ? 'nav-link active' : 'nav-link'}
-              >
-                About
-              </Link>
-            </li>
+        </button> */}
 
-            <li className="nav-item">
-              <Link
-                to="/portfolio"
-                className={
-                  activePage === '/portfolio' ? 'nav-link active' : 'nav-link'
-                }
-              >
-                Portfolio
-              </Link>
-            </li>
+        {/* <div className="collapse navbar-collapse " id="navbarNav"> */}
+        <ul className="navbar">
+          <li className="nav-item">
+            <Link
+              to="/"
+              className={activePage === '/' ? 'nav-link active' : 'nav-link'}
+            >
+              About
+            </Link>
+          </li>
 
-            <li className="nav-item">
-              <Link
-                to="/contact"
-                className={
-                  activePage === '/contact' ? 'nav-link active' : 'nav-link'
-                }
-              >
-                Contact
-              </Link>
-            </li>
+          <li className="nav-item">
+            <Link
+              to="/portfolio"
+              className={
+                activePage === '/portfolio' ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Portfolio
+            </Link>
+          </li>
 
-            <li className="nav-item">
-              <Link
-                to="/resume"
-                className={
-                  activePage === '/resume' ? 'nav-link active' : 'nav-link'
-                }
-              >
-                Resume
-              </Link>
-            </li>
-          </ul>
-        </div>
+          <li className="nav-item">
+            <Link
+              to="/contact"
+              className={
+                activePage === '/contact' ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Contact
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link
+              to="/resume"
+              className={
+                activePage === '/resume' ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Resume
+            </Link>
+          </li>
+        </ul>
       </div>
+      {/* </div> */}
     </nav>
   );
 }
