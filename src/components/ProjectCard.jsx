@@ -1,56 +1,43 @@
 import '../styles/Portfolio.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function ProjectCard() {
+function ProjectCard(props) {
   return (
-    // <div className="text-center">
-    //   <Section title={work.title} body={work.body} />
-    // </div>
-    <section className="pages-container bg-light container ">
-      <div className="contact-box row align-items-start">
+    <section className="pages-container bg-light ">
+      <div className="contact-box">
         <h1 className="title text-gradient">Portfolio</h1>
-        {/* <div className="text-center">
-        <h1 className="title text-gradient ">Portfolio</h1> */}
+        <div className="msg-box-2 ">
+          {/* start of columns */}
+          <div className="container">
+            <div className="row justify-content-start">
+              <div className="col-6 col-sm-4 card">
+                {/* One of two columns */}
+                <img
+                  className="card-img-top"
+                  src={props.image}
+                  //   src=" ../src/assets/images/{Regex-gist.png"
+                  alt="card image"
+                />
+                <div className="card-body">
+                  <h4 className="card-title text-gradient">{props.title}</h4>
+                  <h5 className="card-text text-gradient">
+                    {props.description}
+                  </h5>
+                  <a href="#" className="btn-git btn-primary">
+                    Github
+                  </a>
+                </div>
+              </div>
+              {/* ----card 2----- */}
+              <div className="col-6 col-sm-4">One of two columns</div>
+              {/* force to break midpoint */}
+              <div className="w-100 d-none d-md-block"></div>
 
-        {/* ----single card--- */}
-        <div className="card-body col-6">
-          <div className="img-container">
-            <img
-              className="card-img-top"
-              src=" ../src/assets/images/Regex-gist.png"
-              alt="card image"
-            />
-            <div className="">
-              <h5 className="card-title text-gradient">Regex</h5>
-              <p className="card-text text-gradient">Regex Tutorial</p>
-              <a
-                href="https://gist.github.com/judy-her/d987c36696539b6799928afdc62fe0ff"
-                className="btn-git "
-              >
-                GitHub
-              </a>
+              {/* <div className="col-6 col-sm-4">One of three columns</div>
+              <div className="col-6 col-sm-4">One of four columns</div> */}
             </div>
           </div>
-        </div>
-        {/* card 2 possibly */}
-        <div className="card-body col-6">
-          <div className="img-container">
-            <img
-              className="card-img-top"
-              src=" ../src/assets/images/Regex-gist.png"
-              alt="card image"
-            />
-            <div className="">
-              <h5 className="card-title text-gradient">Regex</h5>
-              <p className="card-text text-gradient">Regex Tutorial</p>
-              <a
-                href="https://gist.github.com/judy-her/d987c36696539b6799928afdc62fe0ff"
-                className="btn-git "
-              >
-                GitHub
-              </a>
-            </div>
-          </div>
+          {/* end of columns */}
         </div>
       </div>
     </section>
