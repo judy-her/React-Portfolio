@@ -8,31 +8,40 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {
   return (
-    // <div className="text-center">
-    //   <Section title={work.title} body={work.body} />
-    // </div>
     <section className="pages-container bg-light ">
       <div className="contact-box">
         <h1 className="title text-gradient">Portfolio</h1>
-        <div className="msg-box ">
-          {/* ----single card--- */}
-          <div className="card card-box">
-            <img
-              className="card-img-top"
-              src=" ../src/assets/images/Regex-gist.png"
-              alt="card image"
-            />
-            <div className="card-body">
-              <h5 className="card-title text-gradient">Regex</h5>
-              <p className="card-text text-gradient">Regex Tutorial</p>
-              <a
-                href="https://gist.github.com/judy-her/d987c36696539b6799928afdc62fe0ff"
-                className="btn btn-primary"
-              >
-                GitHub
-              </a>
+        <div className="msg-box-2 ">
+          {/* start of columns */}
+          <div className="container">
+            <div className="row justify-content-start">
+              <div className="col-6 col-sm-4 card">
+                {/* One of two columns */}
+                <img
+                  className="card-img-top"
+                  src=" ../src/assets/images/Regex-gist.png"
+                  alt="card image"
+                />
+                <div className="card-body">
+                  <h4 className="card-title text-gradient">Card title</h4>
+                  <h5 className="card-text text-gradient">
+                    Regex Tutorial with gist
+                  </h5>
+                  <a href="#" className="btn-git btn-primary">
+                    Github
+                  </a>
+                </div>
+              </div>
+              {/* ----card 2----- */}
+              <div className="col-6 col-sm-4">One of two columns</div>
+              {/* force to break midpoint */}
+              <div className="w-100 d-none d-md-block"></div>
+
+              <div className="col-6 col-sm-4">One of three columns</div>
+              <div className="col-6 col-sm-4">One of four columns</div>
             </div>
           </div>
+          {/* end of columns */}
         </div>
       </div>
     </section>

@@ -69,8 +69,9 @@ ul {
   /* font-size: 70px; */
   padding-bottom: 10px;
 }
-.msg-box {
-  width: 540px;
+.msg-box-2 {
+  width: 800px;
+  background-color: #679dfa;
 }
 .body-text {
   padding-top: 5px;
@@ -81,23 +82,34 @@ ul {
 /*--- card image size ---*/
 img {
   align-self: center;
+  height: 130px;
+  width: 350px;
 }
-.card-img-top {
-  width: 100%;
-  height: 100%;
+/* .card-img-top {
+  width: ;
+  height: ;
+  background-color: #6767fa;
 }
-.card-box {
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-}
+.img-container {
+  height: 230px;
+  width: 230px;
+} */
+/* .card-body {
+  /* height: 250px;
+  width: 320px;
+  background-color: #ae67fa;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 10px; */
 
 .card {
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
+  height: 250px;
+  width: 320px;
+  background-color: #ae67fa;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
 }
-
 .text-gradient {
   background: -webkit-linear-gradient(
     50.1deg,
@@ -111,14 +123,12 @@ img {
 
 /* card */
 .card {
-  width: 100px;
   border-radius: 4px;
   background: #fff;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     0.3s box-shadow,
     0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
-  padding: 14px 80px 18px 36px;
   cursor: pointer;
 }
 .card:hover {
@@ -127,11 +137,15 @@ img {
   background: black;
 }
 
-.btn {
-  font-size: 20px;
+.btn-git {
   width: 100px;
-  height: 30px;
-  border-radius: 27px;
+  height: 40px;
+  border-radius: 20px;
   text-align: center;
-  padding: 0;
+  padding: 5px;
+  background-color: #ae67fa;
+  text-decoration: none;
+  color: rgb(242, 246, 246);
+  font-size: 18px;
+  background: var(--linear-gradient);
 }

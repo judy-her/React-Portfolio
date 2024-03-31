@@ -136,9 +136,11 @@ input {
 .btn {
   background: var(--linear-gradient);
   font-family: var(--main-font-family);
-  color: rgb(231, 153, 16);
+  color: rgb(249, 245, 237);
   font-size: 20px;
   width: 120px;
   height: 40px;
   border-radius: 27px;
+  border-width: 1px;
+  border-color: pink;
 }
