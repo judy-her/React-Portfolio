@@ -1,6 +1,4 @@
-import Section from '../components/Section';
 import '../styles/About.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 // const about = {
 //   title: 'About Me',
