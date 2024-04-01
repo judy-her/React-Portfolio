@@ -32,6 +32,7 @@ function Portfolio() {
                 </div>
               </div> */}
           {/* ----card 2----- */}
+<<<<<<< HEAD
           <div className="col-6 col-sm-4 card ">One of four colum</div>
           <div className="col-6 col-sm-4 card">One of four colum</div>
 
@@ -39,6 +40,15 @@ function Portfolio() {
           <div className="w-100 d-none d-md-block"></div>
           <div className="col-6 col-sm-4 card">One of four colum</div>
           <div className="col-6 col-sm-4 card ">One of four colum</div>
+=======
+          <div className="col-6 col-sm-4 card">One of two columns</div>
+          <div className="col-6 col-sm-4 card">One of two columns</div>
+
+          {/* force to break midpoint */}
+          <div className="w-100 d-none d-md-block"></div>
+          <div className="col-6 col-sm-4 card">One of three columns</div>
+          <div className="col-6 col-sm-4 card ">One of four columns</div>
+>>>>>>> a856bb179004c4e2d3dfb02ca2c6c72d440e5394
         </div>
       </div>
       {/* end of columns */}
