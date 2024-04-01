@@ -24,7 +24,7 @@ function About() {
           <div className="profile-image-box">
             <img
               className="bio-image"
-              src=" ../src/assets/images/Me-pic.png"
+              src=" ../React-Portfolio/src/assets/images/Me-pic.png"
               alt="profile image"
             />
           </div>
