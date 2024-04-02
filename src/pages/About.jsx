@@ -1,9 +1,5 @@
 import '../styles/About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// const about = {
-//   title: 'About Me',
-//   body: 'Hello I am a full-stack web developer',
-// };
 
 function About() {
   return (

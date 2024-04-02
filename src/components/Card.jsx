@@ -1,28 +1,14 @@
-import ProjectCard from '../components/ProjectCard';
-import regexImage from '../assets/images/Regex-gist.png';
 import '../styles/Portfolio.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const card1 = {
-  title: 'Regex Tutorial',
-  description: 'Regex with Gist',
-  image: regexImage,
-};
-
-function Card1() {
+function Card({ imageSrc, title, description, link }) {
   return (
     <div className="col-6 col-sm-4 card">
-      {/* One of two columns */}
-
-      <img
-        className="card-img-top"
-        src=" ../src/assets/images/Regex-gist.png"
-        alt="card image"
-      />
+      <img className="card-img-top" src={imageSrc} alt="project image" />
       <div className="card-body">
-        <h4 className="card-title text-gradient">Card title</h4>
-        <h5 className="card-text text-gradient">Regex Tutorial with gist</h5>
-        <a href="#" className="btn-git btn-primary">
+        <h4 className="card-title text-gradient">{title}</h4>
+        <h5 className="card-text text-gradient">{description}</h5>
+        <a href={link} className="btn-git btn-primary">
           Github
         </a>
       </div>
@@ -30,7 +16,7 @@ function Card1() {
   );
 }
 
-export default Card1;
+export default Card;
 
 // function Portfolio() {
 //   return (

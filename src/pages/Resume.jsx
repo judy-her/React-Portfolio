@@ -1,10 +1,5 @@
-import Section from '../components/Section';
 import '../styles/About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// const resume = {
-//   title: 'My resume',
-//   body: 'Edudation, Work Experience',
-// };
 
 function Resume() {
   return (

@@ -1,14 +1,6 @@
-// import Section from '../components/Section';
-// import '../index.css';
 import '../styles/Contact.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-// const contact = {
-//   title: 'Get in Touch',
-//   body: 'For more info:',
-//   form: 'enter name',
-// };
 
 function Contact() {
   return (
