@@ -10,21 +10,9 @@ function Navbar() {
         <a className="logo text-gradient" href="#">
           Judith
         </a>
-        {/* <button
-          className="navbar-toggler "
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button> */}
 
-        {/* <div className="collapse navbar-collapse " id="navbarNav"> */}
         <ul className="navbar">
-          <li className="nav-item">
+          <li className="nav-item ">
             <Link
               to="/"
               className={activePage === '/' ? 'nav-link active' : 'nav-link'}

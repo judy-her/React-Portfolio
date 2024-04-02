@@ -53,6 +53,9 @@
 .navbar-toggler {
   background-color: pink;
 }
+.active {
+  background-color: rgb(167, 68, 242);
+}
 
 .gradient-background {
   background: linear-gradient(
