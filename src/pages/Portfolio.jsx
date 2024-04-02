@@ -13,33 +13,29 @@ function Portfolio() {
         <div className="container ">
           <div className="row justify-content-start">
             <Card
-              imageSrc={' ../React-Portfolio/src/assets/images/Regex-gist.png'}
-              title={'Project 1'}
-              description={'Card body'}
-              link={
-                'https://gist.github.com/judy-her/d987c36696539b6799928afdc62fe0ff'
-              }
+              imageSrc={' ../React-Portfolio/src/assets/images/sql-tracker.png'}
+              title={'SQL Epmloyee Tracker'}
+              description={'MySQL|Node|'}
+              link={'https://github.com/judy-her/sql-employee-tracker'}
             />
             <Card
-              imageSrc={' ../React-Portfolio/src/assets/images/Regex-gist.png'}
-              title={'Project 1'}
-              description={'Card body'}
-              link={'githublink'}
+              imageSrc={
+                ' ../React-Portfolio/src/assets/images/beat-by-beat2.0.png'
+              }
+              title={'FullStack Group Project'}
+              description={'Express|JS|Tailwind|handlebars|API'}
+              link={'https://beatbybeatv2-d6c2b024a00e.herokuapp.com/'}
             />
 
             {/* force to break midpoint */}
             <div className="w-100 d-none d-md-block"></div>
             <Card
               imageSrc={' ../React-Portfolio/src/assets/images/Regex-gist.png'}
-              title={'Project 1'}
-              description={'Card body'}
-              link={'githublink'}
-            />
-            <Card
-              imageSrc={' ../React-Portfolio/src/assets/images/Regex-gist.png'}
-              title={'Project 1'}
-              description={'Card body'}
-              link={'githublink'}
+              title={'Regex Gist'}
+              description={'Regex | JS'}
+              link={
+                'https://gist.github.com/judy-her/d987c36696539b6799928afdc62fe0ff'
+              }
             />
           </div>
         </div>
